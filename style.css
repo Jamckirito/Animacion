@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+        background: rgba(59, 62, 64, 0.994);
+        color: rgb(219, 219, 255);
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+}
+h1{
+    color: rgb(23, 172, 192);
+    font-family: fantasy;
+    font-weight: 400;
+    border: rgba(59, 62, 64, 0.994) 10px outset
+    
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-direction: normal;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  } 
+  #navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: rgb(23, 172, 192);
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    border-radius: 5%;
+ }
+ #navegador li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+ }  
+h3{
+    color: rgb(23, 172, 192);
+    background-color: #eeeeee;
+    border-radius: 5%;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 300;
+    animation-duration: 3s;
+    animation-name: slidein;
+    border: #333333 5px outset;
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+video{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-direction: normal;
+    
+    border-radius: 5%;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
